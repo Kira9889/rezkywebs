@@ -1,0 +1,132 @@
+body {
+    background: linear-gradient(45deg, #192365, #0A1038, #03081D, #02091A);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-decoration: none;
+}
+
+.header h2 {
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+    position: relative;
+}
+
+nav img {
+    margin-left: 40px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.navv a {
+    color: white;
+    text-decoration: none;
+    /* padding: 15px; */
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.navv {
+    display: flex;
+    gap: 50px;
+    margin-left: 600px;
+    list-style: none;
+    padding-top: 20PX;
+}
+
+.navv a:hover {
+    color: blue;
+    transition: 400ms;
+}
+
+.containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 450px;
+}
+
+.pos {
+    background: transparent;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+}
+
+.pos img {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+.pos h2 {
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: linear-gradient(45deg, #192365, #0A1038, #03081D, #02091A);
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 50px;
+    padding: 10px;
+    width: 600px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.card:hover {
+    scale: 1.1;
+    transition: 400ms;
+}
+
+footer {
+    background: linear-gradient(45deg, #192365, #0A1038, #03081D, #02091A);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    margin-bottom: 10px;
+}
+
+.footer-content h2 {
+    margin: 0;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: #f4c542;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
